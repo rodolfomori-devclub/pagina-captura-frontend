@@ -1,0 +1,132 @@
+@font-face {
+    font-family: 'Sora';
+    font-display: swap;
+    src: url("./assets/fonts/Sora/Sora-Thin.ttf") format('truetype');
+}
+
+@font-face {
+    font-family: 'Sora-Bold';
+    font-display: swap;
+    src: url("./assets/fonts/Sora/Sora-Bold.ttf") format('truetype');
+}
+
+@font-face {
+    font-family: 'Sora-Regular';
+    font-display: swap;
+    src: url("./assets/fonts/Sora/Sora-Regular.ttf") format('truetype');
+}
+
+@font-face {
+    font-family: 'Sora-Medium';
+    font-display: swap;
+    src: url('./assets/fonts/Sora/Sora-Medium.ttf');
+}
+
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+.main-1 {
+    background-image: url('assets/bg-1.webp');
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: cover;
+    background-color: #000000;
+    height: 100vh;
+}
+.main-1-largura{
+    max-width: 1020px;
+    margin: 0 auto;
+    display: grid;
+}
+.div-img{
+    padding-top: 148px;
+}
+.img-logo{
+    width: 150px;
+    height: 150px;
+}
+.foto-rodolfo{
+    display: none;
+}
+.div-1{
+    margin-left: 20px;
+}
+.p-1{
+    color: #00DC00;
+    font-family: "Sora-Bold", Sans-serif;
+    font-size: 30px;
+    line-height: 1.2em;
+    max-width: 450px;
+    padding-top: 10px;
+}
+.p-2{
+    text-align: left;
+    color: #FFFFFF;
+    font-family: "Sora", Sans-serif;
+    font-size: 17px;
+    max-width: 450px;
+    padding-top: 10px;
+}
+.botao {
+        max-width: 40%;
+        transition: 1s;
+        animation-iteration-count: infinite;
+        animation-duration: 1.5s;
+        animation-timing-function: ease-in-out;
+        box-shadow: 0 0 18px 0 rgb(207 255 0 / 41%);
+        background-image: linear-gradient(45deg, #6F8900, #CFFF00, #6F8900, #CFFF00);
+        background-size: 400% 200%;
+        cursor: pointer;
+        margin-top: 20px;
+        border: none;
+        border-radius: 6px;
+        padding: 20px;
+        margin-bottom: 50px;
+        }
+    
+    .botao p {
+    font-family: 'Sora-Bold';
+    font-size: 15px;
+    color: #000;
+    }
+    
+    .botao:hover {
+    transform: scale(1.05);
+    animation: none;
+    }
+    
+    @keyframes tamanho {
+    0% {
+        transform: scale(1);
+    }
+    
+    50% {
+        transform: scale(1.05);
+    }
+    
+    100% {
+        transform: scale(1);
+    }
+    }
+
+    footer {
+        background-color: #0a0a0a;
+        height: 100px;
+    }
+    
+    .div-footer {
+        width: 100%;
+    }
+    
+    .div-footer p {
+        text-align: center;
+        color: #fff;
+        padding: 35px;
+        font-size: 15px;
+        font-family: 'Sora';
+    }
